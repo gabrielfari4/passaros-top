@@ -1,6 +1,9 @@
+import Home from "./pages/Home"
+import SobreMim from "./pages/SobreMim"
+
 console.log(window.location)
 
-const pagina = window.location.pathname === "/" ? <div>Olá mundo!</div> : <div>Sobre mim...</div>
+const pagina = window.location.pathname === "/" ? <Home /> : <SobreMim />
 
 function App() {
 
