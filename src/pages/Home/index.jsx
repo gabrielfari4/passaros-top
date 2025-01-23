@@ -1,5 +1,6 @@
 import Banner from "src/components/Banner";
-
+import styles from './Home.module.css';
+import posts from 'src/json/posts.json';
 
 
 const Home = () => {
@@ -7,7 +8,9 @@ const Home = () => {
         <main>
             <Banner />
 
-            <h1>Olá Mundo!</h1>
+            <ul className={styles.posts}>
+
+            </ul>
         </main>
     )
 }
