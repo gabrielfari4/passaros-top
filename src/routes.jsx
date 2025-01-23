@@ -3,7 +3,7 @@ import Home from "./pages/Home"
 import SobreMim from "./pages/SobreMim"
 import Menu from "./components/Menu";
 
-function App() {
+function AppRoutes() {
 
   return (
     <BrowserRouter>
@@ -18,4 +18,4 @@ function App() {
   );
 }
 
-export default App
+export default AppRoutes;
