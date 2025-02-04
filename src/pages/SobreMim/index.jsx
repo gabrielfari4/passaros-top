@@ -1,12 +1,16 @@
-import Banner from "src/components/Banner";
+import PostModelo from "src/components/PostModelo";
+import fotoCapa from 'src/assets/sobre_mim_capa.png';
 
 const SobreMim = () => {
     return (
-        <main>
-            <Banner />
     
-            <h1>Sobre mim...</h1>
-        </main>
+            <PostModelo
+                fotoCapa={fotoCapa}
+                titulo="Sobre mim"
+            >
+                conteúdo...
+            </PostModelo>
+
     )
 }
 

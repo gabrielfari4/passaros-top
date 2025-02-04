@@ -10,7 +10,7 @@ const Banner = () => {
                     Pássaros Top
                 </h1>
                 <p className={styles.paragrafo}>
-                    Bem vindos ao espaço dos pássaros. Aqui estão listados os pássaros mais brabos de todo o reino passaral. Obviamente isso é minha opinião pessoal, que é a única que importa.
+                    Bem vindos ao espaço dos pássaros. Aqui estão listados os pássaros mais brabos de todo o reino passaral. Obviamente isso é minha opinião pessoal, que é a única que importa neste espaço.
                 </p>
             </div>
             <div className={styles.imagens}>
