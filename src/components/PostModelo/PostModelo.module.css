@@ -3,16 +3,16 @@
     position: relative;
 }
 
-.fotoCapa,
 .titulo {
-    height: 204px;
+    height: 100px;
 }
 
 .fotoCapa {
+    height: 100%;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.3;
+    opacity: 0.15;
     position: absolute;
     top: 0;
     z-index: -1;
@@ -27,7 +27,7 @@
 }
 
 .postConteudoContainer {
-    padding: 2.5rem 7.5rem 4.5rem;
+    padding: 1rem 7.5rem 4.5rem;
 }
 
 @media (max-width: 744px) {

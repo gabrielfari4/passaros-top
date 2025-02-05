@@ -1,0 +1,22 @@
+.infos {
+    margin-block: 2rem;
+    font-size: 1.2rem;
+}
+
+.resumo {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.fotos {
+    height: 300px;
+    width: 300px;
+    object-fit: scale-down;
+}
+
+.fotosContainer {
+    margin-block: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
