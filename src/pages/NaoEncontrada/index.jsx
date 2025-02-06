@@ -1,3 +1,4 @@
+import BotaoPrincipal from "src/components/BotaoPrincipal";
 import styles from "./NaoEncontrada.module.css";
 import erro404 from "src/assets/erro_404.jpg";
 
@@ -18,7 +19,11 @@ const NaoEncontrada = () => {
                 </p>
 
                 <div className={styles.botaoContainer}>
-                    <button>Voltar</button>
+                    <BotaoPrincipal
+                        tamanho="lg"
+                    >
+                        Voltar
+                    </BotaoPrincipal>
                 </div>
 
                 <img
@@ -28,7 +33,6 @@ const NaoEncontrada = () => {
                 />
             </div>
             <div className={styles.espacoEmBranco}>
-
             </div>
         </>
     );
